@@ -113,8 +113,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/moto_msm8960_jbbl/proprietary/etc/firmware/atmxt-r2.tdat:recovery/root/vendor/firmware/atmxt-r2.tdat
 
 # Include 960x540 boot animation in the zip
-PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/common/bootanimation/540.zip:system/media/540.zip
+ PRODUCT_COPY_FILES += \
+    vendor/pac/prebuilt/540x960/bootanimation.zip:system/media/540.zip
 
 # Alternate optional key maps
 PRODUCT_PACKAGES += \
